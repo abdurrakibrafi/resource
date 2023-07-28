@@ -1,6 +1,7 @@
 # flutter_res
 
 A new Flutter project.
+Here all resource are availabe for learning purpose
 
 ## Getting Started
 
