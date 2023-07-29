@@ -14,7 +14,7 @@ class AlertDiologe extends StatelessWidget {
         context: context,
         builder: (BuildContext context) {
           return Expanded(
-              child: AlertDialog(
+              child: AlertDialog( 
             title: Text("Alert !"),
             content: Text("Do you want to Close"),
             actions: [
@@ -37,10 +37,7 @@ class AlertDiologe extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        backgroundColor: Colors.amber,
-        title: Text('Alert-Diologe Box'),
-      ),
+    
       body: Center(
         child: TextButton(
             style: ButtonStyle(
@@ -52,6 +49,8 @@ class AlertDiologe extends StatelessWidget {
             },
             child: Text('Click Me')),
       ),
+     
     );
+  
   }
 }
